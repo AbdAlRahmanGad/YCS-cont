@@ -8921,7 +8921,7 @@
                     .cue.simpleText
               ) || '';
             count++;
-            formattedTranscript += `\n\n#####\n\nTime: ${time}\n\n${cue}\n\n#####\n`;
+            formattedTranscript += `\n${cue}`;
           } catch (error) {
             continue;
           }
